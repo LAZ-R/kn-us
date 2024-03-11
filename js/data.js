@@ -48,12 +48,12 @@ export const SEASONS = [
       {
         id: 'Ep.9', title: "Campania",
         link: 'https://www.youtube.com/watch?v=07jaNgIFrbU', // @SomersetEntertainment - X
-        img: './medias/images/episodes/S1E9.jpg'
+        img: './medias/images/episodes/S1E9.jpg'             // OK
       },
       {
         id: 'Ep.10', title: "The Secret Garden",
         link: 'https://www.youtube.com/watch?v=ZGe9MVulCQI', // @KitchenNightmares
-        img: './medias/images/episodes/S1E10.jpg'
+        img: './medias/images/episodes/S1E10.jpg'            // OK
       },
     ]
   },
@@ -72,22 +72,22 @@ export const SEASONS = [
       {
         id: 'Ep.2', title: "Handlebar",
         link: 'https://www.youtube.com/watch?v=Ic-wMMTCeEY', // @KitchenNightmares
-        img: './medias/images/episodes/S2E2.jpg'
+        img: './medias/images/episodes/S2E2.jpg'             // OK
       },
       {
         id: 'Ep.3', title: "Giuseppi's Trattoria",
         link: 'https://www.youtube.com/watch?v=Seop9juFYYA', // @KitchenNightmares
-        img: './medias/images/episodes/S2E3.jpg'
+        img: './medias/images/episodes/S2E3.jpg'             // OK
       },
       {
         id: 'Ep.4', title: "Trobiano's",
         link: 'https://www.youtube.com/watch?v=HnFiV5OlzP0', // @KitchenNightmares
-        img: './medias/images/episodes/S2E4.jpg'
+        img: './medias/images/episodes/S2E4.jpg'             // OK
       },
       {
         id: 'Ep.5', title: "Black Pearl",
         link: 'https://www.youtube.com/watch?v=1JWO-ieo6ig', // @KitchenNightmares
-        img: './medias/images/episodes/S2E5.jpg'
+        img: './medias/images/episodes/S2E5.jpg'             // OK
       },
       {
         id: 'Ep.6', title: "J Willy's",
@@ -116,8 +116,8 @@ export const SEASONS = [
       },
       {
         id: 'Ep.11', title: "Sante la Brea",
-        link: '',
-        img: './medias/images/episodes/pending.jpg'
+        link: 'https://www.youtube.com/watch?v=VPMxB7N2Znc', // @gordonramsay - X
+        img: './medias/images/episodes/nopicture.jpg'
       },
       {
         id: 'Ep.12', title: "Cafe 36",
@@ -135,8 +135,8 @@ export const SEASONS = [
     episodes: [
       {
         id: 'Ep.1', title: "Hot Potato Cafe",
-        link: '',
-        img: './medias/images/episodes/pending.jpg'
+        link: 'https://www.youtube.com/watch?v=GnwwFEdMrPU', // @SomersetEntertainment - X
+        img: './medias/images/episodes/nopicture.jpg'
       },
       {
         id: 'Ep.2', title: "Flamangos → The Junction",
@@ -417,8 +417,8 @@ export const SEASONS = [
       },
       {
         id: 'Ep.8', title: "Levanti's",
-        link: '',
-        img: './medias/images/episodes/pending.jpg'
+        link: 'https://www.youtube.com/watch?v=KOnWJlzzQeY', // @gordonramsay - X
+        img: './medias/images/episodes/nopicture.jpg'
       },
       {
         id: 'Ep.9', title: "Sam's Mediterranean Kabob Room",
@@ -427,8 +427,8 @@ export const SEASONS = [
       },
       {
         id: 'Ep.10', title: "Nino's",
-        link: '',
-        img: './medias/images/episodes/pending.jpg'
+        link: 'https://www.youtube.com/watch?v=bTrreEsmHJo', // @KitchenNightmares
+        img: './medias/images/episodes/nopicture.jpg'
       },
       {
         id: 'Ep.11', title: "Mill Street Bistro (1/2)",
