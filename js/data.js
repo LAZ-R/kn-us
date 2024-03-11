@@ -72,22 +72,22 @@ export const SEASONS = [
       {
         id: 'Ep.2', title: "Handlebar",
         link: 'https://www.youtube.com/watch?v=Ic-wMMTCeEY', // @KitchenNightmares
-        img: './medias/images/episodes/S2E1.jpg'
+        img: './medias/images/episodes/S2E2.jpg'
       },
       {
         id: 'Ep.3', title: "Giuseppi's Trattoria",
         link: 'https://www.youtube.com/watch?v=Seop9juFYYA', // @KitchenNightmares
-        img: './medias/images/episodes/nopicture.jpg'
+        img: './medias/images/episodes/S2E3.jpg'
       },
       {
         id: 'Ep.4', title: "Trobiano's",
         link: 'https://www.youtube.com/watch?v=HnFiV5OlzP0', // @KitchenNightmares
-        img: './medias/images/episodes/nopicture.jpg'
+        img: './medias/images/episodes/S2E4.jpg'
       },
       {
         id: 'Ep.5', title: "Black Pearl",
         link: 'https://www.youtube.com/watch?v=1JWO-ieo6ig', // @KitchenNightmares
-        img: './medias/images/episodes/nopicture.jpg'
+        img: './medias/images/episodes/S2E5.jpg'
       },
       {
         id: 'Ep.6', title: "J Willy's",

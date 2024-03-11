@@ -9,7 +9,7 @@ import { SEASONS } from "./data.js";
 const EPISODE_HEIGHT = 'var(--episode-header-height) + var(--episode-img-height) + var(--vertical-gap)';
 const getSeasonOpenedHeight = (season) => {
   const epCount = season.episodes.length;
-  console.log(epCount)
+  //console.log(epCount);
   return `calc(var(--season-header-height) + var(--vertical-gap) + (${epCount} * (${EPISODE_HEIGHT}))`;
 }
 
@@ -22,13 +22,16 @@ const getSeasonOpenedHeight = (season) => {
 const onSeasonHeaderClick = (seasonId) => {
   const season = SEASONS.find((element) => element.id == seasonId);
   const caret = document.getElementById(`${seasonId}Caret`);
-  console.table(season);
+  //console.table(season);
   const seasonContainer = document.getElementById(seasonId);
   if (seasonContainer.classList.contains('closed')) {
     seasonContainer.classList.remove('closed');
     seasonContainer.style.minHeight = getSeasonOpenedHeight(season);
     seasonContainer.style.height = getSeasonOpenedHeight(season);
     caret.style.transform = 'rotate(180deg)';
+    setTimeout(() => {
+      seasonContainer.scrollIntoView({ behavior: "smooth", block: "start", inline: "nearest" });
+    }, 400);
   } else {
     seasonContainer.classList.add('closed');
     seasonContainer.style.minHeight = 'var(--season-header-height)';
